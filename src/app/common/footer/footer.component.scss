@@ -1,0 +1,56 @@
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer {
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 3rem;
+    padding-block: 0.8rem 0;
+    border-top: 2px solid HSL(334 10% 14% /50%);
+    font-size: 1.4rem;
+    margin-top: 6rem;
+     
+
+    p {
+        font-family: 'Lora';
+        font-size: 1.4rem;
+    }
+
+    ul a {
+        font-weight: bold;
+        font-family: 'Montserrat';
+    }
+}
+
+.privacy li {
+    margin-inline: 1rem;
+}
+
+@media screen and (max-width : 1200px) {
+    footer {
+        height: 10rem;
+        flex-direction: column-reverse;
+
+    }
+}
+
+@media screen and (max-width : 450px) {
+    footer {
+        font-size: 1.2rem;
+        text-align: center;
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+footer{
+    flex-shrink: 0;
+}

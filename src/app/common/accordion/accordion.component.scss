@@ -1,0 +1,16 @@
+.accordion {
+    border: 1px solid white;
+  }
+  
+  .accordion-header {
+    border-bottom: 1px solid white;
+  }
+  
+  .accordion-body {
+    display: none;
+  }
+  
+  .accordion-body.active {
+    display: block;
+}
+  
